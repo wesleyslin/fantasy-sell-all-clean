@@ -1,0 +1,21 @@
+{
+  "name": "fantasy.top-sell-portfolio-script-lol-took-4.5-hours-lol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "getHeroRarityIndex": "ts-node scripts/getHeroRarityIndex.ts",
+    "sellAll": "ts-node scripts/sellAll.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cloudscraper": "^4.6.0",
+    "viem": "^2.21.3"
+  }
+}
